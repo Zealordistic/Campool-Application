@@ -1,0 +1,88 @@
+.createReq {
+  position: relative;
+  margin-top: 90px;  
+  display: flex;
+  flex-direction: row;
+}
+
+.map-container {
+  width: 50%;
+}
+.map-img {
+  width: 100%;
+  height: 100%;
+}
+
+.createReqContent {
+  padding: 50px;
+  width: 50%;
+  background-color: #c7d4e1;
+}
+
+.createReqContent .input-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.createReqContent .input-group label {
+  flex-basis: 20%;
+  margin-right: 10px;
+}
+
+.createReqContent .input-group input,
+.createReqContent .input-group textarea {
+  flex-basis: 75%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.createReqContent .input-group-description {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.createReqContent .input-group-description label {
+  display: block;
+  margin-bottom: 10px;
+
+}
+
+.createReqContent .input-group-description input,
+.createReqContent .input-group-description textarea {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.createReqContent .input-group-descriptionp textarea {
+  resize: none; /* Disable resizing */
+}
+
+.createReqContent .buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.createReqContent .buttons button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.createReqContent .buttons button[type="submit"] {
+  margin-left: 50px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+.createReqContent .buttons button[type="button"] {
+  margin-right: 50px;
+  background-color: #d9534f;
+  color: white;
+}

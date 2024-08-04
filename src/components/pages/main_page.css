@@ -1,0 +1,10 @@
+.page {
+    display: flex;
+    flex-direction: row; /* This ensures the children are placed side by side */
+    align-items: stretch; /* This will make sure both children stretch to the same height */
+    height: 100vh; /* Adjust the height as required */
+  }
+
+.page > *:last-child {
+  margin-right: 0;
+}

@@ -1,0 +1,87 @@
+/* General styling for the whole page */
+.login {
+  font-family: Arial, sans-serif;
+  background-color: #FDF3D8;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Styling for the login section */
+.loginimg {
+  display: flex;
+  justify-content: center;
+}
+
+/* Styling for the input fields and form */
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5%;
+}
+
+.inputs form {
+  display: flex;
+  flex-direction: column;
+}
+
+#email-logo, #password-logo, #togglepassword {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 10px;
+}
+
+.loginTxt {
+  width: 280px;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Styling for the features section */
+.features {
+  text-align: center;
+  padding: 20px;
+}
+
+.fillblank {
+  padding: 50px;
+}
+#forgot {
+  color: #000;
+  text-decoration: none;
+}
+
+.loginBtn {
+  width: 300px;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #666;
+}
+
+#OR {
+  margin: 20px 0;
+  color: #aaa;
+}
+
+#signup {
+  color: #666;
+}
+
+#signup a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+  

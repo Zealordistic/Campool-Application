@@ -1,0 +1,82 @@
+/* Styling for the login section */
+.signup {
+  font-family: Arial, sans-serif;
+  background-color: #FDF3D8;
+  margin: 0;
+  padding: 0;
+}
+
+.signupimg {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Styling for the input fields and form */
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.inputs form {
+  display: flex;
+  flex-direction: column;
+}
+
+#email-logo, #password-logo, #togglepassword {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 10px;
+}
+
+.signupTxt {
+  width: 280px;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Styling for the features section */
+.features {
+  text-align: center;
+  padding: 20px;
+}
+
+#forgot {
+  color: #000;
+  text-decoration: none;
+}
+
+.signupBtn {
+  width: 300px;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #666;
+}
+
+#OR {
+  margin: 20px 0;
+  color: #aaa;
+}
+
+#login {
+  color: #666;
+}
+
+#login a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+  

@@ -1,0 +1,23 @@
+.trips-container {
+  flex: 1;
+  /* Take remaining space */
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 90px;
+  /* Height of the top navbar */
+  padding: 20px;
+  /* Example padding */
+  overflow-y: auto;
+  /* Enable scrolling for main content */
+}
+
+.current-trips,
+.pending-trips,
+.history-trips {
+  display: flex;
+}
+
+.trip-card {
+  padding: 10px;
+  width: 100%;
+}

@@ -1,0 +1,82 @@
+.dashboard {
+  flex: 1; /* Take remaining space */
+  margin-left: 200px; /* Adjust based on sidebar width */
+  margin-top: 90px; /* Height of the top navbar */
+  padding: 20px; /* Example padding */
+  overflow-y: auto; /* Enable scrolling for main content */
+}
+
+/* .search-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.search-container form {
+  display: flex;
+}
+
+.search-container input[type="text"] {
+  padding: 8px;
+  flex: 1;
+}
+
+.search-container button {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.search-bar {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-bar button {
+  background: none;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+} */
+
+.search-results {
+  margin: 20px;
+
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  padding: 10px;
+  width: 45%;
+}
+
+.create-button {
+  position:fixed;
+  width:50px;
+  height:50px;
+  right: calc( 10% );
+  bottom:40px;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 2px 2px 3px #999;
+}

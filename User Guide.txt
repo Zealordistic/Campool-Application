@@ -1,0 +1,38 @@
+
+0. To successfully install(then run) this application on Windows, you need:
+  - Node version 19.0 or above
+  - Windows 10 or above
+  - ~ 1 MB of disk space
+  - MongoDB account with a database that supports MongoDB v7.0 or above
+1. Setup:
+  *Assume the location of source code is in <dir>*
+  - Once you are ready with Step 0, navigate to <dir> and run
+        "npm install" or "npm i"
+    on your terminal.(Warnings during the installation process can be safely ignored)
+    [Note: this process may take a few minutes]
+  - Open an additional terminal and navigate to the <dir>/src/ folder, and do the same for the other terminal.
+    Now you should have both terminals in the <dir>/src/ folder.
+  - In the <dir>/src/backend.js file, configure your Mongo DB database by making changes to the following lines of code:
+        "const uri = '<PUT YOUR MONGODB CONNECTION STRING HERE>';"
+        "db = client.db('<PUT YOUR MONGODB DATABASE COLLECTION NAME HERE>');"
+    into your own values to ensure a successful connection to your MongoDB database.
+2. Launch Application:
+  - Run "node backend.js" on one terminal to start the server, Then run "npm start" on the other terminal.
+  - A new browser window should appear with the application ready to go.
+
+Frequently Asked Questions:
+Q: Why am I stuck in the login page with errors?
+A: Make sure the Node server is launched and working before starting the actual application('npm start').
+
+Q: The server was not successfully booted, returned an error code 'MODULE_NOT_FOUND'.
+A: It is likely that your server terminal is not in the <dir>/src/ folder.
+
+Q: The server was not successfully booted, returned an error code 'EADDRINUSE'.
+A: It is likely that the port(default 5000) to launch the server is currently in use, either configure the Node
+   server, so it runs on a different port(modify "const port = <PORTNUMBER>" in <dir>/src/backend.js) or check if
+   there are other services occupied this port. This error code can also be generated if there are duplicate
+   servers being launched.
+
+Q: I need help setting up MongoDB, are there any guidelines / resources?
+A: MongoDB documentation website: https://www.mongodb.com/docs/, in there you can find where/how to get the 
+   connection string, CRUD operation guides, and more relevant information.
